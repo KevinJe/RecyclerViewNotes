@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BannerView">
+        <!--指示点的选中值-->
+        <attr name="dotIndicatorFocus" format="reference|color"/>
+        <!--指示点的平常值-->
+        <attr name="dotIndicatorNormal" format="color|reference"/>
+        <!--指示点的大小-->
+        <attr name="dotSize" format="dimension"/>
+        <!--指示点的间距-->
+        <attr name="dotDistance" format="dimension"/>
+        <!--点的位置-->
+        <attr name="dotGravity" format="enum">
+            <enum name="center" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="left" value="-1"/>
+        </attr>
+        <!--banner底部的颜色-->
+        <attr name="bottomViewColor" format="color|reference"/>
+        <!-- 定义宽高比 -->
+        <attr name="widthProportion" format="float"/>
+        <attr name="heightProportion" format="float"/>
+    </declare-styleable>
+</resources>

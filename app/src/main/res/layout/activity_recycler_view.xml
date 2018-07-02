@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!--<com.kevin.recyclerviewtest.wrap.WrapRecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.kevin.recyclerviewtest.wrap.WrapRecyclerView>
+    -->
+    <com.kevin.recyclerviewtest.widget.recyclerview.CusRecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.kevin.recyclerviewtest.widget.recyclerview.CusRecyclerView>
+</android.support.constraint.ConstraintLayout>
